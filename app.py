@@ -1,3 +1,5 @@
 import streamlit as st
+def get_message():
+	return "Automated using CI/CD pipelines."
 st.title("Hello, Streamlit!")
-st.write("Automated using CI/CD pipelines.")
+st.write(get_message())
